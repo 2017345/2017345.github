@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+#rock{
+    border: 1px solid red;
+    border-radius: 22px;
+    background: linear-gradient(0deg,red,white);
+    color: black;
+}
+
+#paper{
+    border: 1px solid blue;
+    border-radius: 22px;
+    background: linear-gradient(0deg,blue,white);
+    color: black;
+}
+
+#scissors{
+    border: 1px solid green;
+    border-radius: 22px;
+    background: linear-gradient(0deg,green,white);
+    color: black;
+}

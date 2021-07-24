@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8"/>
+        <title>ようこそ！</title>
+        <link rel="stylesheet" href="./css/kadai.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>HOME</h1>
+        </header>
+
+        <div>
+            <h2>じゃんけんゲーム</h2>      
+            <button type="button" onclick="jack(0)" id="rock">グー</button>
+            <button type="button" onclick="jack(1)" id="paper">パー</button>
+            <button type="button" onclick="jack(2)" id="scissors">チョキ</button>
+           
+            <div id="jacks">
+                <p id="jack-R"></p>
+            </div>
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="js/kadai.js"></script>
+    </body>
+
+</html>
